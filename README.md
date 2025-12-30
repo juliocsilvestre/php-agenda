@@ -76,7 +76,7 @@ Edite o arquivo `config/connection.php` com suas credenciais:
   $dbname = "agenda_db";
   $user = "seu_usuario";
   $pass = "sua_senha";
-  
+
   try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -100,14 +100,17 @@ Edite o arquivo `config/url.php` com o caminho do seu projeto:
 ### 5. Inicie o servidor
 
 #### Usando XAMPP/WAMP/MAMP:
+
 - Coloque a pasta do projeto no diretório `htdocs` (XAMPP) ou `www` (WAMP)
 - Inicie o Apache e MySQL
 - Acesse: `http://localhost/php-agenda/`
 
 #### Usando servidor embutido do PHP:
+
 ```bash
 php -S localhost:8000
 ```
+
 Acesse: `http://localhost:8000/`
 
 ## 📂 Estrutura do Projeto
@@ -141,32 +144,39 @@ php-agenda/
 ## 💻 Como Usar
 
 ### Adicionar um Contato
+
 1. Clique em "Adicionar Contato" no menu
 2. Preencha nome, telefone e observações (opcional)
 3. Clique em "Cadastrar"
 
 ### Visualizar um Contato
+
 1. Na lista de contatos, clique no ícone do olho (👁️)
 2. Veja todos os detalhes do contato
 
 ### Editar um Contato
+
 1. Na lista de contatos, clique no ícone de edição (✏️)
 2. Modifique as informações desejadas
 3. Clique em "Atualizar"
 
 ### Excluir um Contato
+
 1. Na lista de contatos, clique no ícone de exclusão (❌)
 2. O contato será removido imediatamente
 
 ## 🎨 Capturas de Tela
 
 ### Página Principal
+
 Lista todos os contatos cadastrados com opções de visualizar, editar e excluir.
 
 ### Adicionar Contato
+
 Formulário intuitivo para cadastrar novos contatos.
 
 ### Visualizar Contato
+
 Exibição completa das informações do contato.
 
 ## 🤝 Contribuindo
