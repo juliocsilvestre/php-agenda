@@ -1,6 +1,6 @@
   <footer style="text-align: center; padding: 2rem; color: rgba(255,255,255,0.9); margin-top: 2rem;">
     <p style="margin: 0; font-size: 0.95rem;">
-      Desenvolvido com <i class="fas fa-heart" style="color: #ef4444;"></i> por 
+      Desenvolvido com por 
       <a href="https://github.com/juliocsilvestre" target="_blank" style="color: white; font-weight: 600; text-decoration: none; border-bottom: 2px solid white;">Júlio Silvestre</a>
     </p>
     <p style="margin: 0.5rem 0 0; font-size: 0.875rem; opacity: 0.8;">
